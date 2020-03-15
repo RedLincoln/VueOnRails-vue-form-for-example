@@ -1,24 +1,29 @@
-# README
+# Vue on Rails Example using vue-form-for package form vueonrails repository
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Notas
 
-Things you may want to cover:
+El proyecto esta configurado para utilizar una base de datos [PostgreSQL](https://www.postgresql.org/) si es necesario cambiar los datos de configuración solo es necesario cambiar los campos de `host, username o password` en el fichero `ROOT_RAILS/config/database.yml` los datos que ya tienen son:
 
-* Ruby version
+```
+host: localhost
+username: postgres
+password: password
+```
 
-* System dependencies
 
-* Configuration
+## Intalación
 
-* Database creation
+```
+git clone https://github.com/RedLincoln/VueOnRails-vue-form-for-example
+cd VueOnRails-vue-form-for-example
+bundle install
+npm install
+```
 
-* Database initialization
+## Arrancando el servidor
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+rails db:create
+rails db:migrate
+rails server
+```
