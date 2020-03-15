@@ -33,8 +33,10 @@
   "dependencies": {
     "@rails/webpacker": "4.2.2",
     "vue": "^2.6.11",
+    "vue-form-for": "^1.1.1",
     "vue-loader": "^15.9.0",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "vue-turbolinks": "^2.1.0"
   },
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.32",
